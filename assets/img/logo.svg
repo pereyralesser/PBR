@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" role="img" aria-label="Biblia abierta iluminada">
+  <defs>
+    <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f6e7a6" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#f6e7a6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="520" height="320" fill="none"/>
+  <path d="M260 18 C240 38 245 70 270 78 C295 86 315 67 315 48 C300 58 283 52 275 40 C270 32 269 24 260 18Z"
+        fill="#f6e7a6" filter="url(#glow)"/>
+  <path d="M250 38 C238 56 240 78 258 92 C275 105 300 98 312 80 C304 88 290 90 278 84 C265 78 261 60 250 38Z"
+        fill="#f6e7a6" opacity="0.85"/>
+  <path d="M76 210 C140 168 212 168 260 198 C308 168 380 168 444 210 L444 246 C380 210 308 210 260 238 C212 210 140 210 76 246Z"
+        fill="#e9f3ee" opacity="0.95"/>
+  <path d="M76 210 C140 168 212 168 260 198 C308 168 380 168 444 210"
+        fill="none" stroke="#d7e6df" stroke-width="10" stroke-linecap="round"/>
+  <path d="M260 198 L260 250" stroke="#c6d9cf" stroke-width="6" stroke-linecap="round"/>
+  <path d="M96 226 C150 196 208 198 246 216" fill="none" stroke="#b7cdbf" stroke-width="3" stroke-linecap="round"/>
+  <path d="M274 216 C312 198 370 196 424 226" fill="none" stroke="#b7cdbf" stroke-width="3" stroke-linecap="round"/>
+  <path d="M260 88 C260 88 260 156 260 156" stroke="url(#g)" stroke-width="180" stroke-linecap="round" opacity="0.55"/>
+</svg>
